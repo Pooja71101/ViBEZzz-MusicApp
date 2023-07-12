@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ViBEZzz</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <nav>
+        <ul>
+            <li class="brand"><img src="logo1.png" alt="Spotify"> ViBEZzz</li>
+            <li>Home</li>
+            <li>About</li>
+        </ul>
+    </nav>
+
+    <div class="container">
+            <div class="songList">
+                <h1>Songs List</h1>
+                <div class="songItemContainer">
+                    <div class="songItem">
+                        <img src="images/cover1.jfif" alt="1">
+                        <span class="songName">Let Me Love You</span>
+                        <span class="songListplay"><span class="timeStamp">3:25 <i id="0" class="far SongItemPlay fa-circle-play"></i></span></span>
+                    </div>
+                    <div class="songItem">
+                        <img src="images/faded.jfif" alt="1">
+                        <span class="songName">Faded</span>
+                        <span class="songListplay"><span class="timeStamp">3:25 <i id="1" class="far SongItemPlay fa-circle-play"></i></span></span>
+                    </div>
+                    <div class="songItem">
+                        <img src="images/friends.jpg" alt="1">
+                        <span class="songName">Friends</span>
+                        <span class="songListplay"><span class="timeStamp">3:25 <i id="2" class="far SongItemPlay fa-circle-play"></i></span></span>
+                    </div>
+                    <div class="songItem">
+                        <img src="images/love-me-like.jfif" alt="1">
+                        <span class="songName">Love Me Like You Do</span>
+                        <span class="songListplay"><span class="timeStamp">3:25 <i id="3" class="far SongItemPlay fa-circle-play"></i></span></span>
+                    </div>
+                    <div class="songItem">
+                        <img src="images/love-your-voice.jpg" alt="1">
+                        <span class="songName">Love Your Voice</span>
+                        <span class="songListplay"><span class="timeStamp">3:25 <i id="4" class="far SongItemPlay fa-circle-play"></i></span></span>
+                    </div>
+                    <div class="songItem">
+                        <img src="images/peaches.jfif" alt="1">
+                        <span class="songName">Peaches</span>
+                        <span class="songListplay"><span class="timeStamp">3:25 <i id="5" class="far SongItemPlay fa-circle-play"></i></span></span>
+                    </div>
+                    <div class="songItem">
+                        <img src="images/rockstar.jfif" alt="1">
+                        <span class="songName">Rockstar</span>
+                        <span class="songListplay"><span class="timeStamp">3:25 <i id="6" class="far SongItemPlay fa-circle-play"></i></span></span>
+                    </div>
+                    <div class="songItem">
+                        <img src="images/shape-of-u.jfif" alt="1">
+                        <span class="songName">Shape Of You</span>
+                        <span class="songListplay"><span class="timeStamp">3:25 <i id="7" class="far SongItemPlay fa-circle-play"></i></span></span>
+                    </div>
+                </div>
+                </div> 
+            </div>
+        <div class="songBanner"></div>
+    </div>
+
+    <div class="bottom">
+        <input type="range" name="range" id="myProgressBar" value="0" min="0" max="100">
+        <div class="icons">
+            <!-- fontawesome -->
+            <i class="fas fa-2x fa-step-backward" id="previous"></i>
+            <i class="far fa-2x fa-circle-play" id="masterplay"></i>
+            <i class="fas fa-2x fa-step-forward" id="next"></i>
+        </div>
+        <div class="songInfo">
+            <img src="gif.gif" alt="gif" id="gif" style="opacity: 0;">
+            <span id="masterSongName">Let Me Love You</span>
+        </div>
+    </div>
+    <script src="https://kit.fontawesome.com/e0b1526d5e.js" crossorigin="anonymous"></script>
+    <script src="script.js"></script>
+</body>
+</html>
